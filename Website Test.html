@@ -1,0 +1,565 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Fake News Finder</title>
+    <style>
+        body {
+            background-image: url("back1.jpg");
+            color: white;
+        }
+
+        #demo {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        #test {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        #myimage1 {
+            visibility: hidden;
+        }
+
+        #myimage2 {
+            visibility: hidden;
+        }
+
+        #myimage3 {
+            visibility: hidden;
+        }
+
+        #myimage4 {
+            visibility: hidden;
+        }
+
+        #myimage5 {
+            visibility: hidden;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="Tama.png" alt="Girl in a jacket" width="50" height="60">
+    <img src="Tuna.png" alt="Girl in a jacket" width="50" height="60">
+    <img src="Isaac.png" alt="Girl in a jacket" width="50" height="60">
+    <img src="Kirby.png" alt="Girl in a jacket" width="50" height="60">
+    <img src="Frick.png" alt="Girl in a jacket" width="50" height="60">
+
+    <link rel="icon"
+          type="image/png"
+          href="favicon.ico">
+
+    <h1><center><font face="verdana">Fake News Finder</font></center></h1>
+
+    <p>
+        <center><b><font face="arial">Left-Wing Politics </font></b></center><center>
+            Supports social equality and egalitarianism, often in opposition to social hierarchy and social inequality. It typically involves a concern for those in society whom its adherents perceive as disadvantaged relative to others (prioritarianism)
+            <br />as well as a belief that there are unjustified inequalities that need to be reduced or abolished (by advocating for social justice).The term left-wing can also refer to "the radical, reforming, or socialist section of a political party or system"
+        </center>
+    </p>
+    <p>
+        <center><b><font face="arial">Right-Wing Politics </font></b></center><center>
+            Right-wing politics hold that certain social orders and hierarchies are inevitable, natural, normal or desirable, typically supporting this position on the basis of natural law, economics or tradition. Hierarchy and inequality may be viewed as natural results of traditional
+            <br />social differences or the competition in market economies. The term right-wing can generally refer to "the conservative or reactionary section of a political party or system".  <br>
+        </center>
+    </p>
+    <br>
+
+
+    <center>Enter a URL using the button below to check where the website is on the scale above</center>
+    <center><button onclick="myFunction()">Click Here</button></center>
+    <p id="demo"></p>
+    <p id="test"></p>
+    <img id="myimage1" src="pol1.jpg">
+    <img id="myimage2" src="pol2.jpg">
+    <img id="myimage3" src="pol3.jpg">
+    <img id="myimage4" src="pol4.jpg">
+    <img id="myimage5" src="pol5.jpg">
+    <br /> <br />
+    <h1><center><font face="verdana">Known Fake News Sites</font></center></h1>
+
+    <ul style="list-style-type:disc">
+        <p>
+        <li>America’s Last Line of Defense </li></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p>
+        <li>Daily Feed News</li></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li>Morning Herald</li></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li>Consinfo</li></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li>365 Us News</li></p>
+
+    </ul>
+
+    <ul style="list-style-type:disc">
+        <p>
+        <li>The Trumppers </li></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+        <p>
+        <li>Newslo</li></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        <li>Politicops</li></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+        <li>U.S. Political News</li></p>
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+        <li>Freedom Crossroads</li></p>
+
+    </ul>
+
+    <ul style="list-style-type:disc">
+        <p>
+        <li>Conservative Nation  </li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <p>
+        <li>USA Politics Today</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        &nbsp;
+        &nbsp;
+        <li>Clear Politics</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>London Web News</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>The Postillon</li></p>
+
+    </ul>
+
+    <ul style="list-style-type:disc">
+        <p>
+        <li>Teddy Stick </li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <p>
+        <li>Daily Feed News</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>The Federalist Tribune</li></p>
+        &nbsp;
+        &nbsp;
+
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>Empire News</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>USA Television</li></p>
+
+    </ul>
+
+    <ul style="list-style-type:disc">
+        <p>
+        <li>The Rightists </li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <p>
+        <li>American News</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>Washington Feed</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>Maine Republic Email Alert</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+
+        &nbsp;
+        &nbsp;
+        <li>Viral Cords</li></p>
+
+    </ul>
+
+    <ul style="list-style-type:disc">
+        <p>
+        <li>News Feed Hunter </li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        <p>
+        <li>Breaking Top</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>enVolve</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>Guerrilla News </li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>Daily Insider News</li></p>
+
+    </ul>
+
+    <ul style="list-style-type:disc">
+        <p>
+        <li> The Political Tribune</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <p>
+        <li>Thepoliticaltribune.com</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>USA Daily Post</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>American Journal Review </li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>Blue Vision Post</li></p>
+
+    </ul>
+
+    <ul style="list-style-type:disc">
+        <p>
+        <li>The Examiner </li></p>
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <p>
+        <li>Patriot Hangout</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>Your News Wire</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        &nbsp;
+        &nbsp;
+        <li> St. George Gazette</li></p>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <li>Power Daily</li></p>
+
+    </ul>
+
+
+
+    <p>All data regarding political leanings was collected from Allsides.com and is used in a noncomercial and educational fashion for the purpose of learning HTML. </p>
+    <p>All data regarding fake news websites was collected from FactCheck.com and used strictly for the purpose of education.</p>
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+            document.getElementById("myimage1").style.visibility = "hidden";
+            document.getElementById("myimage2").style.visibility = "hidden";
+            document.getElementById("myimage3").style.visibility = "hidden";
+            document.getElementById("myimage4").style.visibility = "hidden";
+            document.getElementById("myimage5").style.visibility = "hidden";
+            var List = new Array("www.abcnews.go.com", "2", "www.aljazeera.com", "3", "www.alternet.org", "1", "www.spectator.org", "5", "www.americanthinker.com", "5", "www.arkansasonline.com", "1", "www.ap.org", "3", "www.ajc.com", "2", "www.statesman.com", "2", "www.axios.com", "3", "www.barnstablepatriot.com", "3", "www.bbc.com", "3", "www.bearingdrift.com", "5", "www.bloomberg.com", "3", "www.bluevirginia.us", "1", "www.boingboing.net", "1", "www.bgdailynews.com", "2", "www.breitbart.com", "5", "www.businessinsider.com", "3", "www.bustle.com", "2", "www.buzzfeed.com", "2", "www.calmatters.org", "3", "www.calwatchdog.com", "3", "www.cbn.com", "5", "www.cbsnews.com", "2", "www.publicintegrity.org", "2", "www.chicago.suntimes.com", "2", "www.chicagotribune.com", "3", "www.cnbc.com", "3", "www.cnn.com", "2", "www.cnsnews.com", "5", "www.cookpolitical.com", "3", "www.countercurrentnews.info", "2", "www.thedailybeast.com", "1", "www.dailykos.com", "1", "www.dailymail.co.uk", "5", "www.dailynorthwestern.com", "2", "www.dailypress.com", "4", "www.dailyprogress.com", "3", "www.dailytargum.com", "2", "www.defenseone.com", "3", "www.democracynow.org", "1", "www.deseretnews.com", "4", "www.diplomaticcourier.com", "3", "www.drudgereport.com", "5", "www.eptrail.com", "3", "www.eurekalert.org", "3", "www.factcheck.org", "3", "www.fair.org", "3", "www.thefiscaltimes.com", "4", "www.fivethirtyeight.com", "3", "www.forbes.com", "3", "www.foreignaffairs.com", "3", "www.foxnews.com", "4", "www.grist.org", "2", "www.hamptonroadsmessanger.com", "3", "www.honolulucivilbeat.org", "3", "www.hotair.com", "4", "www.huffpost.com", "1", "www.ijr.com", "4", "www.indyonline.com", "3", "www.indyweek.com", "2", "www.infowars.com", "5", "www.ibtimes.com", "3", "www.judicialwatch.org", "4", "www.ksl.com", "5", "www.lasvegassun.com", "2", "www.liveactionnews.org", "4", "www.latimes.com", "2", "www.courier - journal.com", "2", "www.mashable.com", "1", "www.mediamatters.org", "1", "www.mediaite.com", "2", "www.miamiherald.com", "2", "www.michigandaily.com", "2", "www.motherjones.com", "1", "www.msnbc.com", "1", "www.nationaljournal.com", "3", "www.nbcnews.com", "2", "www.newrepublic.com", "1", "www.newyorkdailynews.com", "1", "www.nypost.com", "5", "www.nytimes.com", "2", "www.newsmax.com", "5", "www.newsweek.com", "2", "www.post-gazette.com", "4", "www.politico.com", "2", "www.politicususa.com", "1", "www.politifact.com", "2", "www.procon.org", "3", "www.propublica.org", "3", "www.qz.com", "3", "www.rawstory.com", "3", "www.realclearpolitics.com", "3", "www.reason.com", "4", "www.recordjournal.com", "3", "www.reuters.com", "3", "www.richmondtimesdispatch.com", "4", "www.rollingstone.com", "1", "www.salon.com", "1", "www.sfchronicle.com", "1", "www.sciencedaily.com", "3", "www.scientificamerican.com", "3", "www.sfgate.com", "2", "www.slate.com", "2", "www.theatlantic.com", "2", "www.thebostonglobe.com", "2", "www.thecounterjournal.org", "2", "www.thedailywire.com", "5", "www.theeconomist.com", "2", "www.thefederalist.com", "4", "www.theguardian.com", "2", "www.thehill.com", "3", "www.theintercept.com", "1", "www.thelibertarianrepublic.com", "4", "www.thenewyorker.com", "1", "www.theobserver.com", "3", "www.theoracle.com", "3", "www.theroot.com", "2", "www.thesacrementobee.com", "2", "www.thetelegraph.com", "4", "www.theverge.com", "2", "www.theweek.com", "3", "www.theweeklystandard.com", "5", "www.theblaze.com", "5", "www.thinkprogress.org", "1", "www.time.com", "1", "www.townhall.com", "5", "www.truthorfiction.com", "3", "www.truthout.com", "2", "www.usnewsandworldreport.com", "2", "www.univision.com", "2", "www.upworthy.com", "1", "www.usatoday.com", "3", "www.vice.com", "1", "www.volante.com", "3", "www.vox.com", "2", "www.wallstreetjournal.com", "3", "www.washingtonexaminer.com", "5", "www.washingtonguardian.com", "4", "www.washingtonpost.com", "2", "www.washingtontimes.com", "4", "www.watchdog.org", "4", "www.westernjournalism.com", "5", "www.wisconsingazette.com", "2", "www.yahoo.com", "2");
+            var Worked = 0;
+            var site = prompt("Please enter a URL");
+            if (site.substring(0, 12) == "https://www.") {
+                site = site.substring(12);
+            }
+            if (site != null) {
+                for (i = 0; i < List.length; i = i + 2) {
+                    if (site == List[i].substring(4)) {
+                        if (List[i + 1] == 1) {
+                            document.getElementById("demo").innerHTML =
+                                site + " leans far left";
+                            Worked++;
+                            document.getElementById("myimage1").style.visibility = "visible";
+
+                        }
+                        if (List[i + 1] == 2) {
+                            document.getElementById("demo").innerHTML =
+                                site + " leans left";
+                            Worked++;
+                            document.getElementById("myimage2").style.visibility = "visible";
+
+                        }
+                        if (List[i + 1] == 3) {
+                            document.getElementById("demo").innerHTML =
+                                site + " is center";
+                            Worked++;
+                            document.getElementById("myimage3").style.visibility = "visible";
+
+                        }
+                        if (List[i + 1] == 4) {
+                            document.getElementById("demo").innerHTML =
+                                site + " leans right";
+                            Worked++;
+                            document.getElementById("myimage4").style.visibility = "visible";
+
+                        }
+                        if (List[i + 1] == 5) {
+                            document.getElementById("demo").innerHTML =
+                                site + " leans far right";
+                            Worked++;
+                            document.getElementById("myimage5").style.visibility = "visible";
+
+                        }
+
+                    }
+                }
+                if (Worked == 0) {
+                    document.getElementById("test").innerHTML =
+                        site + " was not in the database";
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
